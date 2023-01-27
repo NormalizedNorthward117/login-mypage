@@ -1,0 +1,115 @@
+body { /*全体*/
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header { /*ヘッダー*/
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 4px lightgray;
+    background-color: white;
+    text-align: center;
+}
+
+    header img { /*ヘッダー内画像*/
+        height: 50px;
+        margin-top: 15px;
+        padding-left: 40px;
+    }
+
+.logout { /*ヘッダー　文字*/
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main { /*メイン全体*/
+    clear: left;
+    width: 100%;
+}
+
+form { /*フォーム枠の設定*/
+    margin: 0 auto;
+    width: 800px;
+    border: 2px solid lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    background-color: white;
+}
+
+.form_contents { /*フォームの要素全体*/
+    margin: 30px 25px 30px 25px;
+}
+/*マージンの設定順は↑から時計回り*/
+
+h2 { /*フォームのタイトル*/
+    text-align: center;
+    border-bottom: 1px solid #31A263;
+    font-size: 20px;
+}
+
+.aisatsu { /*会員へのメッセ*/
+    text-align: left;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.profile_pic { /*登録した画像全体*/
+    float: left;
+    border: 1px solid lightgray;
+    margin: 30px 30px 40px 40px;
+}
+
+.form_contents img { /*登録した画像そのもの*/
+    width: 150px;
+}
+
+
+.name, .mail, .password, .picture, .comments { /*各欄の全体*/
+    margin: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.formbox { /*フォームの入力枠*/
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background: #fff;
+}
+
+.commentText { /*登録コメント単体*/
+    clear: left;
+    margin-bottom: 10px;
+    padding: 10px 0px 20px 20px;
+    font-size: 14px;
+}
+
+.button { /*登録ボタン全体*/
+    text-align: center;
+}
+
+.update_button { /*登録ボタンそのもの*/
+    text-align: center;
+    width: 300px;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #31A263;
+    color: white;
+}
+
+footer { /*フッター*/
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid lightgray;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: gray;
+}

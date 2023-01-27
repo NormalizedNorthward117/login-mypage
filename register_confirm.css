@@ -1,0 +1,111 @@
+body { /*全体*/
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+header { /*ヘッダー*/
+    width: 100%;
+    height: 80px;
+    box-shadow: 2px 2px 4px lightgray;
+    background-color: white;
+    text-align: center;
+}
+
+    header img { /*ヘッダー内画像*/
+        height: 50px;
+        margin-top: 15px;
+        padding-left: 40px;
+    }
+
+.login { /*ヘッダー　文字*/
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+main { /*メイン全体*/
+    clear: left;
+    width: 100%;
+}
+
+.kakunin_flame { /*フォーム枠の設定*/
+    margin: 0 auto;
+    width: 600px;
+    border: 2px solid lightgray;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    background-color: white;
+}
+
+.form_contents { /*フォーム枠内の要素全体*/
+    margin: 30px 25px 30px 25px;
+}
+
+h2 { /*フォームのタイトル*/
+    text-align: center;
+    border-bottom: 1px solid #31A263;
+    font-size: 20px;
+}
+
+.kakunin { /*記入内容が正しいか聞く文*/
+    text-align: center;
+    font-size: 12px;
+}
+
+.kinyu_naiyo { /*記入内容表示全体*/
+    margin: 25px;
+    text-align: left;
+}
+
+    .kinyu_naiyo p { /*記入内容　個別*/
+        padding-bottom: 10px;
+    }
+
+.toroku { /*ボタン全体*/
+    text-align: center;
+}
+
+form { /*ボタン個別の全体*/
+    display: inline-block;
+}
+
+.back_button { /*戻るボタン個別*/
+    width: 150px;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid gray;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #bfbfbf;
+    color: white;
+}
+
+.submit_button { /*登録ボタン個別*/
+    width: 150px;
+    border: 1px solid lightgray;
+    border-bottom: 2px solid gray;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color: #31A263;
+    color: white;
+}
+
+footer { /*フッター*/
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid lightgray;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: gray;
+}
+
+/*●　register_insert.php　●*/
+
+.toroku_ok { /*記入内容が正しいか聞く文*/
+    text-align: center;
+    font-size: 12px;
+}
